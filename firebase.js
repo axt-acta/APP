@@ -52,7 +52,7 @@ window.imprimirYGuardar = async function () {
                 document.getElementById("tecladoDespues")?.value || "",
 
             mouse:
-                document.getElementById("tecladoDespues")?.value || "",
+                document.getElementById("MouseDespues")?.value || "",
 
             antivirus:
                 trendMicro ? "SI" : "NO",

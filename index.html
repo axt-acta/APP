@@ -676,7 +676,15 @@ table.sec textarea { min-height: 60px; resize: vertical; }
       <label>Cargo</label>
       <input type="text" id="firmaUserCargo" placeholder="Cargo segun matriz de perfil">
       <label>Firma</label>
-      <canvas id="sigCanvasUser" class="sig-canvas" width="400" height="70"></canvas>
+      <canvas id="sigCanvasUser"
+        class="sig-canvas"
+        width="1200"
+        height="210"></canvas>
+
+<canvas id="sigCanvasAnalista"
+        class="sig-canvas"
+        width="1200"
+        height="210"></canvas>
       <input type="hidden" id="firmaUserData">
       <div class="sig-btns">
         <button onclick="limpiarFirma('sigCanvasUser','firmaUserData')">Limpiar</button>
@@ -691,7 +699,15 @@ table.sec textarea { min-height: 60px; resize: vertical; }
       <label>Cargo</label>
       <input type="text" id="firmaUserCargo" placeholder="Cargo segun matriz de perfil">
       <label>Firma</label>
-      <canvas id="sigCanvasAnalista" class="sig-canvas" width="400" height="70"></canvas>
+      <canvas id="sigCanvasUser"
+        class="sig-canvas"
+        width="1200"
+        height="210"></canvas>
+
+<canvas id="sigCanvasAnalista"
+        class="sig-canvas"
+        width="1200"
+        height="210"></canvas>
       <input type="hidden" id="firmaAnalistaData">
       <div class="sig-btns">
         <button onclick="limpiarFirma('sigCanvasAnalista','firmaAnalistaData')">Limpiar</button>
